@@ -628,7 +628,6 @@ vendor/etc/media_profiles_canoe_sku3.xml
 vendor/etc/media_profiles_canoe_v1.xml
 vendor/etc/media_profiles_canoe_v2.xml
 vendor/etc/media_profiles_canoe_v3.xml
-vendor/etc/mem_logger_config.xml
 vendor/lib64/libQcelp13SwCodec.so
 vendor/lib64/libmmosal_vendor.so
 vendor/lib64/libplatformconfig.so
