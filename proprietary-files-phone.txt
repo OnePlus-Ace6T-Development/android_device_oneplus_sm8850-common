@@ -322,6 +322,9 @@ vendor/lib64/vendor.qti.ims.factoryaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.ims.rcssipaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.ims.rcsuceaidlservice-V1-ndk.so
 
+# Keylayout
+system/usr/keylayout/gpio-keys.kl:vendor/usr/keylayout/gpio-keys.kl
+
 # QSPA
 vendor/etc/vintf/manifest/qspa/qspa-modem.xml
 
