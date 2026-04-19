@@ -256,10 +256,10 @@ on boot
     write /sys/block/sda/queue/discard_max_bytes 134217728
 
 #8850 power freq limit
-on post-fs-data && property:ro.vendor.qti.soc_name=canoe
-    write /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq 1977600
-    #SM8850-5(5+2) power freq limit
-    write /sys/devices/system/cpu/cpufreq/policy5/scaling_max_freq 1977600
+#on post-fs-data && property:ro.vendor.qti.soc_name=canoe
+#    write /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq 1977600
+#    #SM8850-5(5+2) power freq limit
+#    write /sys/devices/system/cpu/cpufreq/policy5/scaling_max_freq 1977600
 
 # msm specific files that need to be created on /data
 on post-fs-data
